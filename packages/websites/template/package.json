@@ -1,0 +1,39 @@
+{
+  "name": "@namespace/web-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "buildAndExport": "next build",
+    "dev": "cp build/local.env .env.local && NODE_OPTIONS='--inspect' next dev -p 2000",
+    "export": "next export",
+    "jsLint": "eslint --fix '**/*.js'",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@namespace/storybook": "1.0.0",
+    "@namespace/web-shared": "0.1.0"
+  },
+  "peerDependencies": {
+    "@next/eslint-plugin-next": "14.0.2",
+    "axios": "^1.6.1",
+    "axios-retry": "^3.8.1",
+    "jest-fail-on-console": "^3.0.2",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "next": "^14.0.2",
+    "next-redux-wrapper": "^8.1.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.5.2",
+    "react-redux": "^8.1.3",
+    "react-redux-toastr": "^7.6.13",
+    "redux": "^4.2.1",
+    "rsuite": "^5.43.0",
+    "sass": "^1.69.5",
+    "styled-components": "^6.1.1"
+  }
+}

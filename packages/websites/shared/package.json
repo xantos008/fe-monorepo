@@ -1,0 +1,33 @@
+{
+  "name": "@namespace/web-shared",
+  "version": "0.1.0",
+  "private": true,
+  "script": {
+    "jsLint": "eslint --fix '**/*.js'"
+  },
+  "peerDependencies": {
+    "dotenv": "^16.3.1",
+    "eventemitter3": "^5.0.1",
+    "html-react-parser": "^5.0.6",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "luxon": "^3.4.3",
+    "next": "^14.0.2",
+    "next-redux-wrapper": "^8.1.0",
+    "prop-types": "^15.8.1",
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.5.2",
+    "react-query": "^3.39.3",
+    "react": "^18.2.0",
+    "react-redux-toastr": "^7.6.13",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "redux": "^4.2.1",
+    "rsuite": "^5.43.0",
+    "sanitize-html": "^2.11.0",
+    "styled-components": "^6.1.1",
+    "tzdata": "^1.0.38",
+    "validator": "^13.11.0"
+  }
+}

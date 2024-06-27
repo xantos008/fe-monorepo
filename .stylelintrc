@@ -1,0 +1,17 @@
+{
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-styled-components"],
+  "customSyntax": "postcss-styled-syntax",
+  "rules": {
+    "declaration-colon-newline-after": null,
+    "declaration-empty-line-before": null,
+    "function-calc-no-unspaced-operator": null,
+    "scss/operator-no-unspaced": null,
+    "scss/operator-no-newline-after": null,
+    "keyframes-name-pattern": null,
+    "max-line-length": null,
+    "no-descending-specificity": null,
+    "selector-type-case": ["lower", { "ignoreTypes": ["/^\\$\\w+/"] }],
+    "selector-type-no-unknown": [true, { "ignoreTypes": ["/-styled-mixin/", "/^\\$\\w+/"] }],
+    "value-keyword-case": ["lower", { "ignoreKeywords": ["dummyValue"] }]
+  }
+}
